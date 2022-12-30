@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+     <style>
+        h1{
+            text-align: center;
+            color:black;
+        }
+        .div_form{
+            text-align: center;
+            color:#EAEAEA;
+        }
+
+        .div_body{
+            margin: 200px 500px 100px 600px;
+            height: 300px;
+            width: 300px;
+            border: 2px double;
+            border-radius: 5px;
+            border-color:hsl(0, 0%, 5%);
+            background-color: #B2B2B2;
+        }
+    
+     </style>
+
+</head>
+<body>
+    <div class="div_body">
+
+    <h1>
+        Calculator
+    </h1>
+    <div class="div_form">
+    <form class =" form1" action="/calculator" method="post">
+        <input type="text" name="num1" id="" height="200" width="50" placeholder="First Number">
+        <br>
+        <br>
+        <input type="text" name="num2" height="200" width="50" placeholder="Second Number">
+        <br>
+        <br>
+        <input type="text" name="sym" id="" placeholder="Enter the operation ">
+        <br>
+        <br>
+        <button>
+            Clear
+        </button>
+        <button type="submit">
+            Calculate
+        </button>
+    </form>
+</div>
+</div>
+</body>
+</html>
